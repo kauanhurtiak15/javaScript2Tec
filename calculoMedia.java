@@ -6,7 +6,7 @@ public class CalculoMedia{
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite a nota do primeiro trimestre: ")
+        System.out.println("Digite a nota do primeiro trimestre: ");
         double nota1 = scanner.nextDouble();
 
         double nota2 = scanner.nextDouble();
