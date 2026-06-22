@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class semaforo {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite a cor do semáforo!");
+        String cor = scanner.nextLine();
+
+        String corMaiuscula = cor .toUpperCase();
+
+        if (corMaiuscula.equals("VERMELHO")) {
+            System.out.println("Pare o carro");
+        } else if (corMaiuscula.equals("AMARELO")){
+            System.out.println("Atenção");
+        } else{
+            System.out.println("Pode seguir");
+        }
+        scanner.close();
+
+    }
+}

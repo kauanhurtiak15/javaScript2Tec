@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class calculadoraIdade {
+public class calculadoraidade {
 
     public static void main(String[] args){
 
