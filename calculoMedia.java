@@ -25,7 +25,7 @@ public class calculoMedia {
         } else {
             System.out.println("Aprovado");
         }
-    
+        scanner.close();
     
     
     }

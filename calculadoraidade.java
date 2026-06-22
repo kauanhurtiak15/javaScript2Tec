@@ -13,5 +13,6 @@ public class calculadoraidade {
         } else {
             System.out.println("Você é de menor");
         }
+        scanner.close();
     }
 }
